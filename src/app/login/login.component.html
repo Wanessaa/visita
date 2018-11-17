@@ -1,0 +1,13 @@
+
+
+    <h1> Login </h1>
+    
+    Login:<input [(ngModel)]= "usuario.nome" id ="usuario" type="text" pInputText />   <br>
+    Senha:<input [(ngModel)]= "usuario.senha" id ="senha" type="password" pPassword />
+   
+    
+    <br> <br> <br>
+    <p-button label="Login" (click)="fazerLogin()" ></p-button>  <h1> </h1>
+    <p-button label="cadastro" routerLink="/cadastroUsuario"></p-button>
+    
+  
